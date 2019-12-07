@@ -7,7 +7,7 @@
   ],
   "homepage": "https://github.com/afragen/wp-cli-runner",
   "license": "GPL-2.0-or-later",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "require": {
     "wp-cli/wp-cli": "^2"
   },
