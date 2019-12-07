@@ -1,5 +1,5 @@
 {
-  "name": "afragen/phpunit-wp-cli-runner",
+  "name": "polevaultweb/phpunit-wp-cli-runner",
   "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI in PHPUnit",
   "keywords": [
     "testing",
