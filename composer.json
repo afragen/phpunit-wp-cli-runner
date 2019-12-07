@@ -1,9 +1,8 @@
 {
   "name": "afragen/wp-cli-runner",
-  "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI in PHPUnit",
+  "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI",
   "keywords": [
     "testing",
-    "phpunit",
     "wp-cli"
   ],
   "homepage": "https://github.com/afragen/wp-cli-runner",
