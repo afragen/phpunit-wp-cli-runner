@@ -1,20 +1,19 @@
 {
-  "name": "afragen/phpunit-wp-cli-runner",
-  "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI in PHPUnit",
+  "name": "afragen/wp-cli-runner",
+  "description": "Helper to test custom WP-CLI commands by bootstrapping WP-CLI",
   "keywords": [
     "testing",
-    "phpunit",
     "wp-cli"
   ],
-  "homepage": "https://github.com/afragen/phpunit-wp-cli-runner",
-  "license": "GPL",
+  "homepage": "https://github.com/afragen/wp-cli-runner",
+  "license": "GPL-2.0-or-later",
   "version": "0.1.0",
   "require": {
-    "wp-cli/wp-cli": ">2.0"
+    "wp-cli/wp-cli": "^2"
   },
   "autoload": {
     "psr-4": {
-      "Fragen\\PHPUnit_WP_CLI_Runner\\": "src"
+      "Fragen\\WP_CLI_Runner\\": "src"
     }
   }
 }
