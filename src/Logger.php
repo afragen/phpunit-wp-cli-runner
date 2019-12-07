@@ -1,6 +1,6 @@
 <?php
 
-namespace Fragen\PHPUnit_WP_CLI_Runner;
+namespace Fragen\WP_CLI_Runner;
 
 /**
  * PHPUnit logger
