@@ -1,6 +1,6 @@
 <?php
 
-namespace Polevaultweb\PHPUnit_WP_CLI_Runner;
+namespace Fragen\PHPUnit_WP_CLI_Runner;
 
 /**
  * PHPUnit logger

@@ -1,6 +1,6 @@
 <?php
 
-namespace Polevaultweb\PHPUnit_WP_CLI_Runner;
+namespace Fragen\PHPUnit_WP_CLI_Runner;
 
 class Runner {
 
@@ -10,6 +10,10 @@ class Runner {
 	 * @param string $vendorDir
 	 */
 	public static function init( $vendorDir ) {
+		if ( ! defined( 'WP_CLI_VERSION' ) ) {
+			define( 'WP_CLI_VERSION', '2.x' );
+		}
+
 		if ( ! defined( 'WP_CLI_ROOT' ) ) {
 			define( 'WP_CLI_ROOT', $vendorDir . '/wp-cli/wp-cli' );
 		}
